@@ -9,5 +9,28 @@
   <body>
     <%- include("partials/script") %> 
     <%- include("partials/navbar") %>
+      <div>
+      <div class="container mt-5">
+        <h1 class="mb-4">All Blogs</h1>
+        <% if (blogs.length === 0) { %>
+          <p>No blogs available.</p>
+        <% } else { %>
+          <% blogs.forEach(blog => { %>
+            <div class="card mb-4">
+              <% if (blog.coverImageURL) { %>
+                <img src="/uploads/<%= blog.coverImageURL %>" class="card-img-top" alt="Cover Image" />
+              <% } %>
+              <div class="card-body">
+                <h5 class="card-title"><%= blog.title %></h5>
+                <p class="card-text"><%= blog.body %></p>
+                <p class="card-text">
+                  <small class="text-muted">Posted on <%= blog.createdAt.toDateString() %></small>
+                </p>
+              </div>
+            </div>
+          <% }) %>
+        <% } %>
+      </div>
+    
   </body>
 </html>
