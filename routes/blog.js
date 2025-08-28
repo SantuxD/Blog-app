@@ -22,7 +22,7 @@ router.get('/addblog', (req, res) => {
          {user: req.user});
 });
 
-router.post('/addblog', upload.single("coverImage"), async(req, res) => {
+router.post('/addblog', upload.single("coverImageURL"), async(req, res) => {
     const {title, body} = req.body;
   const blog =  await Blog.create({
         title,
