@@ -1,0 +1,77 @@
+[
+  {
+    "title": "The Rise of AI in Everyday Life",
+    "body": "Artificial Intelligence is no longer limited to research labs. From chatbots that assist us daily, to recommendation systems on Netflix and Spotify, AI has become part of our everyday lives. As technology improves, ethical considerations and responsible AI usage will become even more important.",
+    "coverImageURL": "https://images.unsplash.com/photo-1676318716605-0e6e8b99c7c7"
+  },
+  {
+    "title": "Mastering JavaScript for Web Development",
+    "body": "JavaScript has become the backbone of modern web development. With the rise of frameworks like React, Angular, and Vue, developers can now create powerful, responsive applications with ease. Understanding core JS concepts like closures, promises, and async/await is essential for every developer.",
+    "coverImageURL": "https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+  },
+  {
+    "title": "Why Minimalist Design Works Best",
+    "body": "Minimalist design is not just a trend, it’s a philosophy. Clean layouts, subtle colors, and clear typography allow users to focus on content without distractions. Brands like Apple and Google have proven that less is often more when it comes to digital design.",
+    "coverImageURL": "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+  },
+  {
+    "title": "Exploring the Future of Renewable Energy",
+    "body": "With climate change being a global concern, renewable energy sources like solar, wind, and hydro power are becoming vital. Investments in renewable technology promise a cleaner future and could drastically reduce our dependence on fossil fuels.",
+    "coverImageURL": "https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+  },
+  {
+    "title": "A Beginner’s Guide to Healthy Living",
+    "body": "Healthy living doesn’t require drastic changes — small habits like regular exercise, balanced meals, and adequate sleep can have a massive impact. Mental health is equally important, and mindfulness practices like meditation can help maintain balance in a busy lifestyle.",
+    "coverImageURL": "https://images.unsplash.com/photo-1554284126-9e4c89ecf4d1"
+  },
+  {
+    "title": "The Importance of Cybersecurity in 2025",
+    "body": "As our reliance on digital platforms grows, so does the threat of cyberattacks. Businesses and individuals must invest in security practices like multi-factor authentication, encryption, and regular audits to protect sensitive data.",
+    "coverImageURL": "https://images.unsplash.com/photo-1605902711622-cfb43c4437d7"
+  },
+  {
+    "title": "Top 10 Travel Destinations This Year",
+    "body": "From the serene beaches of Bali to the historic streets of Rome, 2025 is packed with breathtaking travel destinations. Traveling not only helps us explore cultures but also refreshes our minds and inspires creativity.",
+    "coverImageURL": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+  },
+  {
+    "title": "The Psychology of Productivity",
+    "body": "Productivity is less about time management and more about energy and focus. Techniques like the Pomodoro method, prioritization, and digital detoxing help individuals stay sharp and avoid burnout.",
+    "coverImageURL": "https://images.unsplash.com/photo-1506784365847-bbad939e9335"
+  },
+  {
+    "title": "How Startups Are Changing the World",
+    "body": "Startups bring innovation by challenging the norms. With lean teams and disruptive ideas, they’re transforming industries like fintech, healthcare, and education faster than ever before.",
+    "coverImageURL": "https://images.unsplash.com/photo-1559526324-593bc073d938"
+  },
+  {
+    "title": "Photography Tips for Beginners",
+    "body": "Photography is an art of capturing light. Beginners should focus on mastering the basics: composition, lighting, and storytelling. Once the fundamentals are strong, creativity can flow naturally.",
+    "coverImageURL": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+  },
+  {
+    "title": "The Power of Reading Books",
+    "body": "In a world full of short videos and social media, reading books provides depth and perspective. It strengthens focus, reduces stress, and enhances imagination like no other habit.",
+    "coverImageURL": "https://images.unsplash.com/photo-1512820790803-83ca734da794"
+  },
+  {
+    "title": "Building a Career in Tech",
+    "body": "Technology continues to be one of the fastest-growing industries. Whether you’re learning to code, becoming a designer, or exploring AI, continuous learning is the key to long-term success.",
+    "coverImageURL": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  },
+  {
+    "title": "Why Mental Health Matters",
+    "body": "Conversations around mental health are becoming mainstream, but the stigma still exists. It’s important to normalize therapy, meditation, and self-care to maintain overall wellbeing.",
+    "coverImageURL": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528"
+  },
+  {
+    "title": "The Evolution of Gaming",
+    "body": "From 8-bit classics to immersive VR, gaming has evolved into a billion-dollar industry. Esports, cloud gaming, and AI-driven experiences are shaping the future of entertainment.",
+    "coverImageURL": "https://images.unsplash.com/photo-1617957741648-9c360fcd52d9"
+  },
+  {
+    "title": "Cooking as a Form of Therapy",
+    "body": "Cooking is not only about food — it’s about mindfulness, creativity, and joy. Preparing meals at home has been shown to reduce stress and improve overall happiness.",
+    "coverImageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+  }
+]

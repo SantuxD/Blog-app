@@ -32,4 +32,23 @@ router.post('/addblog', upload.single("coverImageURL"), async(req, res) => {
     });
     return res.redirect(`/blog/${blog._id}`);
 });
+
+router.get("/:id", async(req, res) =>{
+try {
+    const blog = await Blog.findById(req.params.id)
+    if(!blog){
+        return res.status(404).send('Blog not found');
+    }
+    return res.render('blog',{
+        blog, user: req.user,
+    
+});  
+} catch(error) {
+    console.error(error);
+    res.status(500).send('Server error');
+  } 
+
+});
+
+
 module.exports = router;

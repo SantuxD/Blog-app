@@ -7,13 +7,10 @@
     <title>Blog page</title>
   </head>
   <body>
-    <%- include("partials/script") %>
-
     <div class="container mt-5">
       <h1>Add a New Blog</h1>
       <form action="/blog/addblog" method="post" enctype="multipart/form-data">
-
-        <div  class="mb-3">
+        <div class="mb-3">
           <label for="coverImage" class="form-label">Cover Image</label>
           <input
             type="file"
@@ -35,7 +32,7 @@
             required
           />
         </div>
-        <div class="mb-3">
+        <div class="mb-3 font-bold">
           <label for="body" class="form-label">Content</label>
           <textarea
             class="form-control"
@@ -48,5 +45,6 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
+    <%- include("partials/script") %>
   </body>
 </html>

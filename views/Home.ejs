@@ -4,21 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <%- include("partials/head") %>
-    <title>Home Page</title>
+    <title>Blogs</title>
   </head>
   <body>
-    <%- include("partials/script") %> <%- include("partials/navbar") %>
-    <div class="container mt-5">
-      <% blogs.forEach(blog => { %>
-      <div class="card" style="width: 18rem">
-        <img src="<%= blog.coverImageURL %>" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title"><%= blog.title %></h5>
+    <%- include("partials/navbar") %>
 
-          <a href="/blog <%= blog._id %>" class="btn btn-primary">View</a>
-        </div>
+    <div class="container mt-5">
+      <h2 class="mb-4 text-center">Latest Blogs</h2>
+      <div class="row g-4">
+        <% blogs.forEach(blog => { %>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="<%= blog.coverImageURL %>" 
+                   class="card-img-top" 
+                   alt="<%= blog.title %>" 
+                   style="height: 200px; object-fit: cover;" />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title"><%= blog.title %></h5>
+                <p class="card-text text-muted" style="flex-grow:1;">
+                  <%= blog.body.substring(0, 120) %>...
+                </p>
+                <a href="/blog/<%= blog._id %>" class="btn btn-primary mt-auto">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        <% }) %>
       </div>
-      <% }) %>
     </div>
+
+    <%- include("partials/script") %>
   </body>
 </html>
